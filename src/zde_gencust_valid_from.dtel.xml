@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_GENCUST_VALID_FROM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Valid from</DDTEXT>
+    <REPTEXT>Valid from</REPTEXT>
+    <SCRTEXT_S>Valid from</SCRTEXT_S>
+    <SCRTEXT_M>Valid from</SCRTEXT_M>
+    <SCRTEXT_L>Valid from</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>DATS</DATATYPE>
+    <LENG>000008</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gültig ab</DDTEXT>
+     <REPTEXT>Gültig ab</REPTEXT>
+     <SCRTEXT_S>Gültig ab</SCRTEXT_S>
+     <SCRTEXT_M>Gültig ab</SCRTEXT_M>
+     <SCRTEXT_L>Gültig ab</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Gültig ab</DDTEXT>
+     <REPTEXT>Gültig ab</REPTEXT>
+     <SCRTEXT_S>Gültig ab</SCRTEXT_S>
+     <SCRTEXT_M>Gültig ab</SCRTEXT_M>
+     <SCRTEXT_L>Gültig ab</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

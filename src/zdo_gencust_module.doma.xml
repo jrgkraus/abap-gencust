@@ -1,0 +1,4615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDO_GENCUST_MODULE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>SAP main module (2 digits)</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>SAP main module (2 digits)</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>AC</DOMVALUE_L>
+     <DDTEXT>Accounting - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>AP</DOMVALUE_L>
+     <DDTEXT>Application Platform</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>BC</DOMVALUE_L>
+     <DDTEXT>Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>BI</DOMVALUE_L>
+     <DDTEXT>Business intelligence solutions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>BW</DOMVALUE_L>
+     <DDTEXT>SAP Business Warehouse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>CA</DOMVALUE_L>
+     <DDTEXT>Cross-Application Basis Components</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>CO</DOMVALUE_L>
+     <DDTEXT>Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>CS</DOMVALUE_L>
+     <DDTEXT>Customer Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>DI</DOMVALUE_L>
+     <DDTEXT>Discrete Industries</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>EC</DOMVALUE_L>
+     <DDTEXT>Enterprise Controlling</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>EP</DOMVALUE_L>
+     <DDTEXT>Enterprise Portal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>FI</DOMVALUE_L>
+     <DDTEXT>Financial Accounting</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>FS</DOMVALUE_L>
+     <DDTEXT>Financial Services</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>IM</DOMVALUE_L>
+     <DDTEXT>Investment Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>IN</DOMVALUE_L>
+     <DDTEXT>International Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>KM</DOMVALUE_L>
+     <DDTEXT>Knowledge Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>LE</DOMVALUE_L>
+     <DDTEXT>Logistics Execution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>LO</DOMVALUE_L>
+     <DDTEXT>Logistics - General</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>MM</DOMVALUE_L>
+     <DDTEXT>Materials Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PA</DOMVALUE_L>
+     <DDTEXT>Personnel Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PD</DOMVALUE_L>
+     <DDTEXT>Personnel Planning and Development</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PE</DOMVALUE_L>
+     <DDTEXT>Training and Event Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PM</DOMVALUE_L>
+     <DDTEXT>Plant Maintenance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PP</DOMVALUE_L>
+     <DDTEXT>Production Planning and Control</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PS</DOMVALUE_L>
+     <DDTEXT>Project System</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PT</DOMVALUE_L>
+     <DDTEXT>Personnel Time Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payroll</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>QM</DOMVALUE_L>
+     <DDTEXT>Quality Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>RE</DOMVALUE_L>
+     <DDTEXT>Real Estate Management</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>SD</DOMVALUE_L>
+     <DDTEXT>Sales and Distribution</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>SV</DOMVALUE_L>
+     <DDTEXT>Service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>TR</DOMVALUE_L>
+     <DDTEXT>Treasury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>WP</DOMVALUE_L>
+     <DDTEXT>Obsolete Product: mySAP.com Workplace</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DOMVALUE_L>XX</DOMVALUE_L>
+     <DDTEXT>Multiple modules</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

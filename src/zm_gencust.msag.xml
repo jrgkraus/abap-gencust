@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZM_GENCUST</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Central parameters</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM_GENCUST</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Parameter &amp;1 is inconsistently maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZM_GENCUST</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Parameter &amp;1 can not be read with this call</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
