@@ -43,25 +43,31 @@ The item table has the following:
 ### Using the reader class
 The reader class is instantiated by a factory:
 
+```abap
       settings_reader =
         cond #(
           when input = abap_true
             then zcl_gencust_factory=>get_main_nocust( parameter_purpose )
             else zcl_gencust_factory=>get_main( parameter_purpose ) ).
+```
             
 As shown in the example, there are two options: instantiate the customizing variant (`ZDB_GENCUSTHD` `ZDB_GENCUSTIT`) or the non-customizing one.
 
 Reading the values
 
+```abap
         data(settings_value) = settings_reader->single( plant ).
+```
 
 The read methods implement the return pattern, thus they return an object that can be used to get the value that has been read, but also to determine if a value exists or not.
 
+```abap
         if settings_value->is_ok( ).
           cl_demo_output=>display( |Value found: { settings_value->get_value( ) }| ).
         else.
           cl_demo_output=>display( settings_value->get_error( ) ).
         endif.
+```
 
 ### Demo reports
 
