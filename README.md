@@ -8,4 +8,5 @@ I used this approach for many years in a mid-range implementation with about 300
 ## Usage notes
 There are two sets of customizing tables: `ZDB_GENCUSTHD` `ZDB_GENCUSTIT` and `ZDB_GENCUSTHD2` `ZDB_GENCUSTIT2`. The latter ones are table with no transport link. They are intended for maintaining directly in the production system (for example, if material numbers, customer codes, address numbers ore anything else concerning master data is to be stored). The others are normal customizing with link to the transport system.
 
-I recommend creating two view clusters, for each pair of tables one
+I recommend creating two view clusters, for each pair of tables one. See the example here:
+
