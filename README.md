@@ -10,3 +10,4 @@ There are two sets of customizing tables: `ZDB_GENCUSTHD` `ZDB_GENCUSTIT` and `Z
 
 I recommend creating two view clusters, for each pair of tables one. See the example here:
 
+![view cluster](gencust_readme1.png)
