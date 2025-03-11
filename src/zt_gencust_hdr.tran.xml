@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZT_GENCUST_HDR</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZT_GENCUST_HDR</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZT_GENCUST_HDR</TCODE>
+    <TTEXT>Configure CS tools</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZT_GENCUST_HDR</TCODE>
+    <PARAM>/*SM31 VIEWNAME=ZDB_GENCUSTHD;UPDATE=X;</PARAM>
+   </TSTCP>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>1</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>3</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>9</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>C</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>F</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>H</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>I</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>K</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>L</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>N</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>O</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>P</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>Q</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>S</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>U</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>V</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>X</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>Y</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>d</SPRSL>
+     <TTEXT>Configure CS tools</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

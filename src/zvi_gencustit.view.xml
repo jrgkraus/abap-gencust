@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZVI_GENCUSTIT</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZDB_GENCUSTIT</ROOTTAB>
+    <DDTEXT>Parameter value</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZVI_GENCUSTIT</VIEWNAME>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZDB_GENCUSTIT</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>PURPOSE</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>PURPOSE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>ZDB_GENCUSTHD</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ORG_LEVEL</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>ORG_LEVEL</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>KEY_VALUE</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>KEY_VALUE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>VALID_FROM</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>VALID_FROM</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>T</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>USERNAME</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>USERNAME</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>USR02</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>COUNTER</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>COUNTER</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>VALUE</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>VALUE</FIELDNAME>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>INACTIVE</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>INACTIVE</FIELDNAME>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>DESCRIPTION</VIEWFIELD>
+     <TABNAME>ZDB_GENCUSTIT</TABNAME>
+     <FIELDNAME>DESCRIPTION</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+   <TABL_EXTRAS>
+    <TDDAT>
+     <TABNAME>ZVI_GENCUSTIT</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+   </TABL_EXTRAS>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>9</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>X</LANGU>
+    <LANGU>Y</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>9</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>X</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Y</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Parameter value</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
