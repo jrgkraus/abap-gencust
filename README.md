@@ -12,6 +12,12 @@ I used this approach for many years in a mid-range implementation with about 300
 * Possibility to store structure-like parameters (see `ZP_GENCUST_DEMO_STRUCTURE`)
 * Possibility to store multi-value parameters (see `ZP_GENCUST_DEMO_MULTIPLE`)
 
+## Installation
+* Download the repository and install it with ABAPGIT
+* Generate view maintenance dialogues
+  * ZDB_GENCUSTHD, ZVI_GENCUSTIT: Delivery class is C, so the dialogues will create with recording routine
+  * ZDB_GENCUSTHD2, ZVI_GENCUSTIT2: Delivery class is A, so no recording routine will be included
+
 ## Usage notes
 ### Maintaining the tables
 There are two (identical) sets of customizing tables: `ZDB_GENCUSTHD` `ZDB_GENCUSTIT` and `ZDB_GENCUSTHD2` `ZDB_GENCUSTIT2`. The latter ones are tables with no transport link. They are intended for maintaining directly in the production system (for example, if material numbers, customer codes, address numbers ore anything else concerning master data is to be stored). The others are normal customizing with link to the transport system.
